@@ -1,7 +1,7 @@
 void get_next(String T, int *next)
 {
-	j = 0; //前缀
-	i = 1; //后缀
+	int j = 0; //前缀
+	int i = 1; //后缀
 	next[1] = 0;
 	while (i < T[0])
 	{
